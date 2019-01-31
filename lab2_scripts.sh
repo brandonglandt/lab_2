@@ -16,5 +16,5 @@ grep -cE '[0-9]{3}-[0-9]{3}-[0-9]{4}' regex_practice.txt
 grep -cE '[A-Za-z0-9]+@[A-Za-z0-9]+[A-Za-z]' regex_practice.txt
 grep -E '[303]{3}-[0-9]{3}-[0-9]{4}' regex_practice.txt  > phone_results.txt
 grep -E '[A-Za-z0-9]+@[geocities.com]' regex_practice.txt  > email_results.txt
-grep $1 filename > command_results.txt
+grep $1 regex_practice.txt > command_results.txt
 
